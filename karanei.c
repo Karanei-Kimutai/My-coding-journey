@@ -1,3 +1,5 @@
+//this is code to calculate the magnitude of a vector in maths
+
 #include<stdio.h>
 #include<math.h>
 
