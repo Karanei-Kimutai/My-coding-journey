@@ -36,16 +36,16 @@ struct student_information{
 int main(){
     struct student_information student1;
     printf("Enter name:");
-    scanf("%s",student1.name);
-    printf("\nEnter age:");
+    gets(student1.name);
+    printf("Enter age:");
     scanf("%d",&student1.age);
-    printf("\nEnter student id:");
+    printf("Enter student id:");
     scanf("%d",&student1.student_id);
-    printf("\nEmployment status:");
+    printf("Employment status:");
     scanf("%s",student1.employment_status);
-    printf("\nEnter Area Adress:");
+    printf("Enter Area Adress:");
     scanf("%s", student1.residential_adress.Area);
-    printf("\nEnter City:");
+    printf("Enter City:");
     scanf("%s",student1.residential_adress.City);
     
     
